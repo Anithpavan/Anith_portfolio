@@ -1,10 +1,9 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anith Pavan | AI & Full Stack Developer</title>
+    <title>Anith Pavan | AI/ML & Full Stack Developer</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,8 +15,12 @@
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#opensource">Open Source</a></li>
+            <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -35,7 +38,7 @@
                 </p>
 
             <div class="hero-buttons">
-                <a href="assets/resume/Aluru_AnithPavanKumar_Resume.pdf" target="_blank" class="hero-btn primary">
+                <a href="assets/resume/AluruVAnithPavankumar_Resume.pdf" target="_blank" class="hero-btn primary">
                     Download Resume
                 </a>
 
@@ -45,6 +48,10 @@
 
                 <a href="https://www.linkedin.com/in/venkata-anith-pavan-kumar-aluru-063935344" target="_blank" class="hero-btn secondary">
                     LinkedIn
+                </a>
+
+                <a href="https://leetcode.com/Anithpavan" target="_blank" class="hero-btn secondary">
+                    LeetCode
                 </a>
             </div>
 
@@ -64,14 +71,53 @@
         <p>
             I am a B.Tech student specializing in Artificial Intelligence and Data Science
             with hands-on experience in building AI-powered and full-stack web applications.
-            I have worked on computer vision projects, RESTful APIs using Flask, and 
-            contributed to open-source projects.
+            I have worked on computer vision projects, RESTful APIs using Flask and Node.js,
+            and contributed to multiple open-source projects including UNICEF Bebbo,
+            JdeRobot RoboticsAcademy, ML4SCI (Stingray), and OpenAstronomy.
         </p>
         <p>
-            My interests lie in AI/ML, backend development, and building scalable solutions
-            that solve real-world problems.
+            My interests lie in AI/ML, full-stack development, and building scalable solutions
+            that solve real-world problems. I recently presented a research paper on
+            "Automatic Detection of Temple & Gopuram Carvings using Deep Learning" at ICCVIP-26.
         </p>
     </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="experience-card">
+            <h3>Bachelor of Technology in Artificial Intelligence & Data Science</h3>
+            <h4>Audisankara College of Engineering & Technology &middot; 2023 – 2027</h4>
+            <p>CGPA: 7.71 / 10</p>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="experience-card">
+            <h3>Full Stack Developer Intern</h3>
+            <h4>Blend Vidya EdTech, Bengaluru &middot; Nov 2025 – Feb 2026</h4>
+            <ul>
+                <li>Contributed to production-level web applications using Flask, Node.js, JavaScript, HTML, CSS, and ML models.</li>
+                <li>Designed and implemented RESTful backend APIs with Flask for authentication, data flow, and application logic.</li>
+                <li>Developed and deployed a full-stack employee self-tracking system; live production app at pleacements.cloud.</li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Participant (Listener)</h3>
+            <h4>International Conference on Computer Vision & Image Processing (ICCVIP-26) &middot; Visakhapatnam, India &middot; May 2026</h4>
+            <ul>
+                <li>Attended technical sessions on Computer Vision, Image Processing, Artificial Intelligence, and Deep Learning.</li>
+                <li>Presented research paper: "Automatic Detection of Temple & Gopuram Carvings using Deep Learning".</li>
+                <li>Gained exposure to recent research developments and industry trends in AI-based technologies.</li>
+            </ul>
+        </div>
+    </section>
+
     <!-- ===== PROJECTS SECTION ===== -->
     <section id="projects">
         <h2>Projects</h2>
@@ -79,99 +125,148 @@
         <div class="projects-container">
 
             <div class="project-card">
-                <h3>AI Fruit Identification System</h3>
+                <h3>AI Image Identification System</h3>
                 <p>
-                    Developed a web-based AI system that classifies fruit types from images
-                    using a custom-trained CNN model integrated with a Flask backend.
+                    Developed AI-based image classification models for livestock (buffalo vs cattle)
+                    and fruit types using CNNs and computer vision, integrated into a Flask web app
+                    for real-time prediction.
                 </p>
-                <p class="tech">Tech: Python, OpenCV, Flask, TensorFlow</p>
+                <p class="tech">Tech: Python, Flask, TensorFlow, Keras, OpenCV, HTML/CSS/JS</p>
                 <a href="https://github.com/Anithpavan" target="_blank">View on GitHub</a>
             </div>
 
             <div class="project-card">
                 <h3>AI Face Detection for College Attendance</h3>
                 <p>
-                    Built an AI-powered face recognition attendance system using real-time
-                    webcam input. Attendance is logged automatically with timestamps.
+                    Built a real-time face recognition attendance system that auto-detects faces
+                    from a live camera feed and logs attendance with timestamps using DeepFace
+                    for robust recognition across varying lighting conditions and angles.
                 </p>
-                <p class="tech">Tech: Python, OpenCV, DeepFace, Flask</p>
+                <p class="tech">Tech: Python, OpenCV, DeepFace, Flask, Pandas</p>
                 <a href="https://github.com/Anithpavan" target="_blank">View on GitHub</a>
             </div>
 
             <div class="project-card">
                 <h3>Crop Calendar Awareness System</h3>
                 <p>
-                    Created a full-stack web application that provides region and season-wise
-                    crop calendar information to support farmers’ decisions.
+                    Built a Flask REST API backend with a dynamic frontend filtering crop data by
+                    location and season, with a responsive Bootstrap UI helping farmers explore
+                    suitable crops for their region.
                 </p>
-                <p class="tech">Tech: Python, Flask, HTML, CSS, JavaScript</p>
+                <p class="tech">Tech: Python, Flask, HTML/CSS, JavaScript, Bootstrap, Pandas</p>
                 <a href="https://github.com/Anithpavan" target="_blank">View on GitHub</a>
             </div>
 
-            <div class="project-card">
-                <h3>Open Source Contribution – UNICEF Bebbo</h3>
-                <p>
-                    Contributed to the UNICEF Bebbo app by authoring a Windows environment
-                    setup guide, reducing onboarding issues for new contributors.
-                </p>
-                <p class="tech">Tech: React Native, Git, GitHub</p>
-                <a href="https://github.com/Anithpavan" target="_blank">View PR</a>
-            </div>
         </div>
     </section>
-        <!-- ===== SKILLS SECTION ===== -->
+
+    <!-- ===== SKILLS SECTION ===== -->
     <section id="skills">
         <h2>Skills</h2>
 
         <div class="skills-container">
 
             <div class="skill-box">
-                <h3>Languages</h3>
-                <p>Python, Java, C, JavaScript, HTML, CSS, SQL</p>
+                <h3>Programming Languages</h3>
+                <p>Python, Java, JavaScript, TypeScript, SQL</p>
             </div>
 
             <div class="skill-box">
                 <h3>Frameworks & Libraries</h3>
-                <p>Flask, OpenCV, DeepFace, TensorFlow, Pandas</p>
+                <p>Flask, React, React Native, Node.js, Express, Bootstrap, TensorFlow, Keras, PyTorch, OpenCV</p>
             </div>
 
             <div class="skill-box">
-                <h3>Developer Tools</h3>
-                <p>Git, GitHub, Docker, VS Code, Jupyter</p>
+                <h3>Databases</h3>
+                <p>MongoDB, PostgreSQL</p>
             </div>
 
             <div class="skill-box">
-                <h3>Domains</h3>
-                <p>AI/ML, Computer Vision, Web Development, Real-Time Applications</p>
+                <h3>Tools & Platforms</h3>
+                <p>Docker, Git, GitHub, VS Code, Jupyter, Render</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>AI/ML Techniques</h3>
+                <p>Deep Learning, Computer Vision, Convolutional Neural Networks, REST APIs</p>
             </div>
 
         </div>
     </section>
-    <!-- ===== EXPERIENCE SECTION ===== -->
-    <section id="experience">
-        <h2>Experience</h2>
+
+    <!-- ===== OPEN SOURCE SECTION ===== -->
+    <section id="opensource">
+        <h2>Open Source Contributions</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>UNICEF Bebbo</h3>
+                <p>
+                    Authored a Windows environment setup guide for Android builds (React Native).
+                    PR #1045 merged.
+                </p>
+                <p class="tech">Tech: React Native, Git, GitHub</p>
+                <a href="https://github.com/Anithpavan" target="_blank">View PR</a>
+            </div>
+
+            <div class="project-card">
+                <h3>JdeRobot RoboticsAcademy</h3>
+                <p>
+                    Set up the robotics simulation environment and implemented the Follow Line simulation.
+                </p>
+                <p class="tech">Tech: Robotics, Simulation</p>
+                <a href="https://github.com/Anithpavan" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>ML4SCI (Stingray)</h3>
+                <p>
+                    Submitted PR #923 adding and validating a TOA calculation notebook compatible
+                    with the latest library dependencies.
+                </p>
+                <p class="tech">Tech: Python, Jupyter</p>
+                <a href="https://github.com/Anithpavan" target="_blank">View PR</a>
+            </div>
+
+            <div class="project-card">
+                <h3>OpenAstronomy</h3>
+                <p>
+                    Prepared GSoC proposals for astronomy-related machine learning projects.
+                </p>
+                <p class="tech">Tech: Python, ML, Astronomy</p>
+                <a href="https://github.com/Anithpavan" target="_blank">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS SECTION ===== -->
+    <section id="achievements">
+        <h2>Achievements</h2>
 
         <div class="experience-card">
-            <h3>Full Stack Developer Intern</h3>
-            <h4>Blendvidya EdTech </h4>
-            <p>
-                Worked on developing and maintaining web-based applications in an EdTech environment.
-                Built backend APIs using Flask, created responsive frontend components, and collaborated
-                with team members to improve application performance and fix bugs.
-            </p>
+            <ul>
+                <li>Delivered 4+ open-source contributions to UNICEF Bebbo, JdeRobot, ML4SCI (Stingray), and OpenAstronomy.</li>
+                <li>Class Representative @ Dept. of AI & Data Science, Audisankara College &middot; Nov 2026 – Present</li>
+                <li>Participant @ ICCVIP-26, International Conference on Computer Vision & Image Processing &middot; May 2026</li>
+                <li>Presenter @ RTIH, Startup Idea Presentation &middot; Jan 2026</li>
+                <li>Participated in a six-day Cloud Computing workshop organised by APSSDC &middot; Feb 2026</li>
+            </ul>
         </div>
     </section>
 
-<!-- ===== CONTACT SECTION ===== -->
+    <!-- ===== CONTACT SECTION ===== -->
     <section id="contact">
         <h2>Contact</h2>
 
         <p>If you’d like to connect or discuss opportunities, feel free to reach out.</p>
 
         <div class="contact-links">
-            <a href="mailto:anithpavankuamr@gmail.com">Email</a>
+            <a href="mailto:anithpavankumar@gmail.com">Email</a>
             <a href="https://github.com/Anithpavan" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/venkata-anith-pavan-kumar-aluru-063935344" target="_blank">LinkedIn</a>
+            <a href="https://leetcode.com/Anithpavan" target="_blank">LeetCode</a>
         </div>
     </section>
 
